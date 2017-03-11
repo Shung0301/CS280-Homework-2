@@ -32,7 +32,7 @@ namespace PokemonIndex
                 Console.WriteLine("請輸入正確的數字。\n錯誤訊息:\n" + warning.ToString());
             }
 
-            Console.WriteLine("請輸入寶可夢的身高");
+            Console.WriteLine("請輸入寶可夢的體重");
             try
             {
                 pokemons.Weight = float.Parse(Console.ReadLine());
@@ -41,6 +41,7 @@ namespace PokemonIndex
             {
                 Console.WriteLine("請輸入正確的數字。\n錯誤訊息:\n" + warning.ToString());
             }
+            Console.WriteLine("輸入完成");
         }
 
         //private void CheckValue(int WNumber, string WarnMsg)
